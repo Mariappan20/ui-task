@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.navBar {
+    background-color:#FFDF01;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navBar__link {
+    color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navBar__cancel{
+    margin-left: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navBar__cancelBtn{
+    background-color:#FFDF01;
+    color: #000000;
+    border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.navBar__cancelBtn:hover{
+    background-color: #FFDF01;
+    color: #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contentWrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.content {
+   
+    width: 45%;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.auto-left {
+    margin-left:auto;
+}
+
+.input-box {
+    border:1px dotted black;
+    border-radius: 8px;
+
+}
+.info {
+    margin-top: 100px;
+}
+.reg-btn {
+    background-color: #FFDF01;
+    color: #000000;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 20px;
+}
+-
+.back-btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.buttonWrapper {
+    display: flex;
+    margin-top: 50px;
 }
